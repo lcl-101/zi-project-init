@@ -1,0 +1,5 @@
+//.babelrc
+{
+  "presets": ["env","es2015","react"],
+  "plugins": [ "syntax-dynamic-import"]
+}

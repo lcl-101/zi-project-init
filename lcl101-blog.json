@@ -1,0 +1,20 @@
+{
+  "apps":[{
+    "name": "webpack-blog",
+    "script": "./app/app.js",
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "error_file": "/var/www/logs/blog/lcl101-app.stderr.log",
+    "out_file": "/var/www/logs/blog/lcl101-app.stdout.log",
+    "pid_file": "/var/www/logs/blog/lcl101.pid",
+    "instances": "max",
+    "min_uptime": "2000",
+    "max_restarts": 15,
+    "watch": false,
+    "ignore_watch": ["[\\/\\\\]\\./", "node_modules"],
+    "merge_logs": true,
+    "exec_mode": "cluster",
+    "env": {
+        "NODE_ENV": "production"
+     }
+  }]
+}
