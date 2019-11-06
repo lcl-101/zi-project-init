@@ -77,7 +77,7 @@
     "gulp-sequence": "^1.0.0",
     "lodash": "^4.17.11",
     "mongodb": "^3.2.2",
-    "mongoose": "^5.4.21"
+    "mongoose": "^5.7.5"
   },
   "private": true
 }
